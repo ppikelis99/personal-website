@@ -1,0 +1,36 @@
+@import url('../variables.css');
+
+.header {
+  background-color: var(--primary-color);
+  box-shadow: 0px 2px 4px var(--primary-color);
+  height: 80px;
+  --bs-navbar-padding-y: 0 !important;
+}
+.navbar-collapse {
+  background-color: var(--primary-color);
+}
+
+.headerLink:hover {
+  background-color: var(--hover-color);
+}
+
+.headerLogo {
+  height: 80px;
+}
+.headerLink {
+    width: 100%;
+    color: var(--text-color) !important;
+    font-size: 20px !important;
+}
+.headerLink:hover {
+    box-shadow: 0px 2px 4px var(--hover-color);
+}
+.burgerButton {
+    --bs-navbar-toggler-border-color: none;
+}
+.navbar-toggler-icon {
+    color: var(--text-color) !important;
+}
+.burgerButton:focus {
+    box-shadow: none !important;
+}

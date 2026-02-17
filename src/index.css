@@ -1,0 +1,7 @@
+@import url('./Components/Variables.css');
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'fantasy', cursive !important;
+}
