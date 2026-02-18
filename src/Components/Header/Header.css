@@ -34,3 +34,6 @@
 .burgerButton:focus {
     box-shadow: none !important;
 }
+#mainNavbar {
+  z-index: 1;
+}
