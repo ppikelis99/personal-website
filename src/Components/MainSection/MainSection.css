@@ -118,6 +118,6 @@
     width: 100px;
 }
 .containerBox {
-    background-color: var(--hover-color);
+    background-color: var(--container-color);
     box-shadow: 2px 2px 2px var(--border-color);
 }
