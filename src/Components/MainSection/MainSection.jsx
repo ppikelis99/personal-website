@@ -35,11 +35,6 @@ export default function MainSection() {
                 <h3 className="mainSubtitle">Currently focused on React and responsive web development</h3>
                 <p className="mainText">Here you can see my projects and progress</p>
 
-            
-                <div className='clickOnMe position-absolute'>
-                    <div>↑</div>
-                    <span>Click on me</span>
-                </div>
                 <img onClick={() => changePosition('reactLogo')} data-speed="0.3" className='smallLogo reactLogo position-absolute end-90 bottom-80' src={reactLogo} alt="React" />
                 <img onClick={() => changePosition('jsLogo')} data-speed="0.3" className='smallLogo jsLogo position-absolute start-50 bottom-0' src={jsLogo} alt="JavaScript" />
                 <img onClick={() => changePosition('bsLogo')} data-speed="0.3" className='smallLogo bsLogo position-absolute' src={bsLogo} alt="Bootstrap" />

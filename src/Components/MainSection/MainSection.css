@@ -74,14 +74,6 @@
 .refLogo {
     height: 50px;
 }
-.clickOnMe {
-    bottom: 70%;
-    left: 9%;
-    opacity: 0;
-    font-size: 30px;
-    animation: textFadeOut 10s ease-in infinite;
-    animation-delay: 4s;
-}
 .reactLogo:hover, .jsLogo:hover, .bsLogo:hover {
     cursor: pointer;
     height: 110px;
