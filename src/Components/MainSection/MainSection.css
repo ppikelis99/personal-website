@@ -79,6 +79,12 @@
     height: 110px;
     transform: rotate(48deg);
 }
+.clickMoreDetails {
+    color: aquamarine;
+}
+.projectImgUrl {
+    height: 150px;
+}
 @keyframes textFadeOut {
     0% {
         opacity: 0;

@@ -43,7 +43,7 @@ export default function MainSection() {
             <div className='d-flex flex-column align-items-center pb-5'>
                 <div>
                     <a href="https://www.linkedin.com/in/paulius-pikelis-755a16381/"><img className='refLogo m-1' src={linkedingLogo} alt="LinkedIn"/></a>
-                    <a href=""><img className='refLogo m-1' src={githubLogo} alt="GitHub"/></a>
+                    <a href="https://github.com/ppikelis99?tab=repositories"><img className='refLogo m-1' src={githubLogo} alt="GitHub"/></a>
                 </div>
                 <span><a href="#aboutContainer">Scroll down</a></span>
                 <div>↓</div>
@@ -84,12 +84,21 @@ export default function MainSection() {
                 </div>
             </div>
 
-            <div className='containerProjects d-flex align-items-center justify-content-center'>
-                <div className='d-flex flex-column gap-5 align-items-center'>
+            <div className='containerProjects d-flex flex-column align-items-center justify-content-center'>
+
+                <div className='d-flex flex-column gap-5 align-items-center containerBox border border-2 border-dark p-3'>
                     <h1>Projects</h1>
-                    <p>Here you can see some of my projects with live demo and github links</p>
-                    <Link to="/works">Click here to see more details</Link>
+                    <p className='fs-3'>Here you can see some of my projects with live demo and github links</p>
+                    <Link to="/works" className='clickMoreDetails fs-2'>Click here to see more details</Link>
                 </div>
+
+                <div>
+                    <div className='p-2 mt-5 d-flex gap-5'>
+                        <a href="https://www.linkedin.com/in/paulius-pikelis-755a16381/"><img className='projectImgUrl m-1' src={linkedingLogo} alt="LinkedIn"/></a>
+                        <a href="https://github.com/ppikelis99?tab=repositories"><img className='projectImgUrl m-1' src={githubLogo} alt="GitHub"/></a>
+                    </div>
+                </div>
+
             </div>
         </section>
     )
