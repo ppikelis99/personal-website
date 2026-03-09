@@ -15,7 +15,14 @@
 }
 
 .headerLogo {
-  height: 80px;
+  width: 100px;
+  text-align: center;
+  color: var(--logo-color);
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  line-height: 80px;
+  text-decoration: none;
+  text-shadow: 4px 3px var(--shadows-color);
 }
 .headerLink {
     width: 100%;

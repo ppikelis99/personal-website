@@ -14,11 +14,15 @@ export default function Header() {
       root.style.setProperty('--background-color', '#ececec');
       root.style.setProperty('--text-color', '#000000');
       root.style.setProperty('--container-color', '#6b95b4');
+      root.style.setProperty('--shadows-color', '#EAE0CF');
+      root.style.setProperty('--logo-color', '#93a5a1');
     } else {
       root.style.setProperty('--primary-color', '#547792');
       root.style.setProperty('--background-color', '#213448');
       root.style.setProperty('--text-color', '#EAE0CF');
       root.style.setProperty('--container-color', '#47667e');
+      root.style.setProperty('--shadows-color', '#7b7f81');
+      root.style.setProperty('--logo-color', '#EAE0CF');
     }
     setDarkMode(!darkMode);
   }
@@ -26,7 +30,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-md header align-items-stretch">
       
-      <img src={Logo} className="headerLogo" alt="Logo"/>
+      <Link className="headerLogo" to="/">P</Link>
 
       <button className="navbar-toggler burgerButton" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span className="navbar-toggler-icon"></span>
