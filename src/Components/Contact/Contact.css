@@ -2,3 +2,7 @@
     color: var(--text-color);
     background-color: var(--background-color);
 }
+.urlLinks {
+    text-decoration: none;
+    color: var(--text-color);
+}
